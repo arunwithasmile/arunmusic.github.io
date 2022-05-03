@@ -1,0 +1,12 @@
+<div class="title">
+    {{title}}
+</div>
+<div class="container">
+    <asp-card
+        *ngFor="let item of media"
+        [key]="item.key"
+        [title]="item.title"
+        [zoom]="item.zoom"
+        [startAt]="item.startAt"
+    ></asp-card>
+</div>
