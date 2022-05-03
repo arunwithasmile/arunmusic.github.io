@@ -18,11 +18,11 @@ export class ScoresComponent implements OnInit {
       startAt: 34
     },
     {
-      title: "The Search",
+      title: "The Search | Munnudi | Educational Short Film",
       key: "mO-95wGMsKY"
     },
     {
-      title: "Koonur Times",
+      title: "Koonur Times | Timlapse of Landscapes",
       key: "KPMDuNCBdyU"
     }
     ]
@@ -30,16 +30,15 @@ export class ScoresComponent implements OnInit {
   {
     title: "Drama",
     media: [{
-      title: "Raja Rani",
+      title: "Raja Rani | Flora & Fauna | Kannada Short Film",
       key: "5w4rWyzBJFU"
     }]
   },
   {
     title: "Horror",
     media: [{
-      title: "The Room",
-      key: "_LUP7q5fgZg",
-      startAt: 203
+      title: "The Room | Kripalwood",
+      key: "_LUP7q5fgZg"
     }]
   }
   ];

@@ -13,11 +13,11 @@ export class SongsComponent implements OnInit {
   categories: Array<Category> = [{
     title: "Life",
     media: [{
-      title: "Kannada Nadu",
+      title: "Kannada Nadu | Spashta Theatre",
       key: "oGbP7-v46Ws"
     },
     {
-      title: "Bindu",
+      title: "Bindu | Story of a Cell",
       key: "rCAyhkzvP4U"
     },
     {
@@ -30,14 +30,15 @@ export class SongsComponent implements OnInit {
   {
     title: "Party / DJ",
     media: [{
-      title: "Hangover Kannada Song",
-      key: "tHV9x43a1K4"
+      title: "Hangover | Kannada Single",
+      key: "tHV9x43a1K4",
+      zoom: 90
     }]
   },
   {
     title: "Horror",
     media: [{
-      title: "Chaara",
+      title: "Chaara | Dodmane Combines",
       key: "sDH27koNc_c",
       startAt: 203
     }]

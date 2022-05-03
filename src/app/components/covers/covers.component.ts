@@ -24,6 +24,18 @@ export class CoversComponent implements OnInit {
     ]
   },
   {
+    title: "Cinematic",
+    media: [{
+      title: "KGF Chapter 2 Teaser | BGM Cover",
+      key: "s9mZoRAUf08"
+    },
+    {
+      title: "Trailer Cut: Terminator",
+      key: "iOUiwDwK4Dw"
+    }
+  ]
+  },
+  {
     title: "Party / DJ",
     media: [{
       title: "Happy New Year 2019",
@@ -40,6 +52,10 @@ export class CoversComponent implements OnInit {
     media: [{
       title: "Game of Thrones | Instrumental Cover",
       key: "3_58N-3MQ3A"
+    },
+    {
+      title: "Inception - Money Heist Mashup",
+      key: "tkE1UskKwOw"
     }]
   }
   ];
